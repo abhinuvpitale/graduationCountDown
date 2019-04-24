@@ -14,13 +14,13 @@ Countdown to Virginia Tech Graduation on May 16th 2019!
   <br>
   
   <img src = 'https://imgs.xkcd.com/comics/students.png '></img>
- <marquee direction = "down" ><h1 id="demo"></h1></marquee>
+ <marquee direction = "down" ><h1 id="demo1"></h1></marquee>
  <br>
- <marquee direction = "left" scrollamount="20"><h1 id="demo"></h1></marquee>
+ <marquee direction = "left" scrollamount="20"><h1 id="demo2"></h1></marquee>
  <br>
- <marquee direction = "right" scrollamount="30"><h1 id="demo"></h1></marquee>
+ <marquee direction = "right" scrollamount="30"><h1 id="demo3"></h1></marquee>
  <br>
- <marquee direction = "up" scrollamount="15"><h1 id="demo"></h1></marquee>
+ <marquee direction = "up" scrollamount="15"><h1 id="demo4"></h1></marquee>
 </body>
 
 <script>
@@ -45,6 +45,15 @@ var x = setInterval(function() {
   // Display the result in the element with id="demo"
   document.getElementById("demo").innerHTML = days + "d " + hours + "h "
   + minutes + "m " + seconds + "s ";
+ document.getElementById("demo1").innerHTML = days + "d " + hours + "h "
+  + minutes + "m " + seconds + "s ";
+ document.getElementById("demo2").innerHTML = days + "d " + hours + "h "
+  + minutes + "m " + seconds + "s ";
+ document.getElementById("demo3").innerHTML = days + "d " + hours + "h "
+  + minutes + "m " + seconds + "s ";
+ document.getElementById("demo4").innerHTML = days + "d " + hours + "h "
+  + minutes + "m " + seconds + "s ";
+ 
 
   // If the count down is finished, write some text 
   if (distance < 0) {
